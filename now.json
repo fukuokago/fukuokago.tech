@@ -1,7 +1,7 @@
 {
     "version": 2,
-	"name": "static",
-	"builds": [
+    "name": "static",
+    "builds": [
 		{ "src": "index.html", "use": "@now/html-minifier" },
 		{ "src": "styles.css", "use": "@now/html-minifier" }
   	]
